@@ -124,7 +124,7 @@ SSH into the control node and follow the steps below:
   - name: Start filebeat service
     command: service filebeat start
     
-- Ensure the playbook has the full path to filebeat-playbook.yml in the playbook, and that your own username is filled out next to remote_user: 
+- Ensure the playbook is properly formatted with correct spacing, has the full path to filebeat-playbook.yml in the playbook, and that your own username is filled out next to remote_user: 
 - Use command in /etc/ansible/roles: ansible-playbook filebeat-playbook.yml to run the playbook
 - On Kibana navigate to the Filebeat installation page on the ELK server GUI
 - Scroll down to the bottom of the page and click Check Data, if the steps worked you will see an affirmation of its success in a green message
@@ -162,7 +162,7 @@ SSH into the control node and follow the steps below:
   - name: Start metricbeat service
     command: service metricbeat start
     
-- Ensure the playbook has the full path to metricbeat-playbook.yml
+- Ensure the playbook is properly formatted with correct spacing and has the full path to metricbeat-playbook.yml
 - Use command in /etc/ansible/roles: ansible-playbook metricbeat-playbook.yml to run the playbook
 - On Kibana navigate to the metricbeat installation page on the ELK server GUI
 - Click Add Metric Data, Click Docker Metrics, Click the DEB tab under Getting Started, Scroll down to the bottom of the page and click Check Data
