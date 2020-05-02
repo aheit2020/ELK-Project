@@ -61,7 +61,7 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because this ensures that provisioning scripts run identically which eliminates variability between configurations.
 
 The playbook implements the following tasks:
-- First it configures the hosts and remote user
+- First, it configures the hosts and remote user
 - Second, it installs the docker.io with apt_get
 - Third, it installs python
 - Fourth, it installs the docker module
