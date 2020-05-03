@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](./Diagram.png)
+![TODO: Update the path with the name of your diagram](Diagram/Diagram.png)
 
 In hindsight, the firewall rules should be more restrictive as all ports open for the ELK VM are opened for the other VMs as well. The diagram acts as an idealised version of the project with bare-bones VPN settings.
 
