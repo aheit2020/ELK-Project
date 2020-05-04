@@ -1,0 +1,11 @@
+#!/bin/bash
+if [[ $4 == "BlackJack" ]]; then 
+	cat $1 | grep "$2 $3" | awk -F " " '{print $1, $2, $3, $4}'
+elif [[ $4 == "Roulette" ]]; then
+	cat $1 | grep "$2 $3" | awk -F " " '{print $1, $2, $5, $6}' 
+elif [[ $4 == "Texas" ]]; then
+	cat $1 | grep "$2 $3" | awk -F " " '{print $1, $2, $7, $8}'
+else 
+	echo "Input valid game"
+fi
+
