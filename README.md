@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](./Diagram.png)
+![TODO: Update the path with the name of your diagram](Diagram/Diagram.png)
 
 In hindsight, the firewall rules should be more restrictive as all ports open for the ELK VM are opened for the other VMs as well. The diagram acts as an idealised version of the project with bare-bones VPN settings.
 
@@ -72,7 +72,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](./Sudo docker ps.png)
+![TODO: Update the path with the name of your screenshot of docker ps output](Ansible/sudodockerps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
